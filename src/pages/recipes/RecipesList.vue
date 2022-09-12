@@ -34,6 +34,14 @@ export default {
       return this.$store.getters['recipes/hasRecipes'];
     },
   },
+  created() {
+    this.loadRecipes();
+  },
+  methods: {
+    async loadRecipes() {
+        await this.$store.dispatch('recipes/loadRecipes');
+    },
+  }
 };
 </script>
 
