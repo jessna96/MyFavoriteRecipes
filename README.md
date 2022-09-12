@@ -18,6 +18,7 @@ $ npm run serve
 
 - Add recipe image with URL and save URL as a string
 - Functions to edit and delete recipes
+- Improve UI of sign up and registration
 - Change Realtime Database to Cloud Firestore Database with Authentification
 - Image upload instead of URL </br></br>
 and more...
