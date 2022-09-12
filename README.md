@@ -1,12 +1,12 @@
 # MyFavoriteRecipes
 
-## Installation / Ausführen des Projektes
+## Install / Run the project
 
-Folgende Komponenten müssen lokal installiert sein:
+The following components must be installed locally:
 
 - [nodejs](https://nodejs.org/en/) v16.15.0
 
-Um das Projekt lokal auszuführen, folgendes in der Commandline / Bash eingeben:
+To run the project locally, enter the following in Commandline / Bash:
 
 ```console
 $ git clone https://github.com/jessna96/MyFavoriteRecipes.git
@@ -14,3 +14,10 @@ $ cd MyFavoriteRecipes
 $ npm install
 $ npm run serve
 ```
+## My next steps for the project
+
+- Add recipe image with URL and save URL as a string
+- Functions to edit and delete recipes
+- Change Realtime Database to Cloud Firestore Database with Authentification
+- Image upload instead of URL </br></br>
+and more...
